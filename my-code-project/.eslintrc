@@ -1,0 +1,13 @@
+{
+    "plugins": [
+        "security"  // Package "eslint-plugin-security"
+    ],
+    "rules": {
+
+        "security/no-generic-name": "error",
+
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"]
+
+    }
+}

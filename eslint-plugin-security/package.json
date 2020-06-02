@@ -1,0 +1,17 @@
+{
+  "name": "eslint-plugin-security",
+  "version": "1.0.0",
+  "description": "ESLint workshop plugin to implement some security rules",
+  "author": "Corentin",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "eslint": "^7.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  }
+}
