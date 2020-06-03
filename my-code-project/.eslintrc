@@ -5,6 +5,7 @@
     "rules": {
 
         "security/no-generic-name": "error",
+        "security/no-root-guard": "error",
 
         "semi": ["error", "always"],
         "quotes": ["error", "single"]

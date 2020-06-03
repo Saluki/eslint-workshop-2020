@@ -1,6 +1,7 @@
 
-var a = securityGuard.isAllowed(null);
+var isAllowed = securityGuard.isAllowed('root');
+var isAllowed2 = securityGuard.isAllowed('root');
 
-if (a) {
+if (isAllowed) {
     console.log('Well done, you are allowed');
 }
